@@ -42,6 +42,7 @@ All seven repositories ship a green CI pipeline, a Dockerfile (where applicable)
 
 ## 📫 Get in touch
 
+- 🌐 Portfolio — **[dev-portfolio-sigma-sepia.vercel.app](https://dev-portfolio-sigma-sepia.vercel.app)**
 - Email — **honormorethangold@gmail.com**
 - GitHub — **[@KassieIII](https://github.com/KassieIII)**
 - Open to: backend / full-stack roles, remote or relocation.
