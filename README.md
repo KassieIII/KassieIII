@@ -42,7 +42,7 @@ All seven repositories ship a green CI pipeline, a Dockerfile (where applicable)
 
 ## 📫 Get in touch
 
-- Email — **kassym.yermakhanbet@gmail.com**
+- Email — **honormorethangold@gmail.com**
 - GitHub — **[@KassieIII](https://github.com/KassieIII)**
 - Open to: backend / full-stack roles, remote or relocation.
 
