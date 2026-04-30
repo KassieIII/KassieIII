@@ -14,6 +14,7 @@ I like systems that are small, observable and boring in production: typed APIs, 
 | **Frontend**      | Next.js 14, Vue 3, React 18, TypeScript, Tailwind, Pinia                |
 | **Data / infra**  | PostgreSQL, Redis, IndexedDB, Alembic migrations                        |
 | **DevOps**        | Docker (multi-stage, distroless), GitHub Actions, Makefile, pre-commit  |
+| **AI / RAG**      | pgvector + HNSW, sentence-transformers, Ollama, cross-encoder rerank    |
 | **Testing**       | pytest + pytest-asyncio, vitest, `go test -race`, ruff, gofmt           |
 
 ---
@@ -22,6 +23,7 @@ I like systems that are small, observable and boring in production: typed APIs, 
 
 | Project | What it is | Stack |
 | ------- | ---------- | ----- |
+| **[rag-docs](https://github.com/KassieIII/rag-docs)** | Ask-your-docs RAG service — pgvector HNSW retrieval, local Ollama LLM, every claim cited as `[chunk:N]`, 25-question eval harness | FastAPI · pgvector · Ollama · bge-small |
 | **[go-pingmon](https://github.com/KassieIII/go-pingmon)** | Concurrent HTTP uptime monitor — worker-pool prober, JSON API, distroless Docker (~3 MB) | Go · stdlib |
 | **[TaskFlow-API](https://github.com/KassieIII/TaskFlow-API)** | Async REST API with JWT auth, Alembic migrations, Postgres | FastAPI · SQLAlchemy 2.0 · asyncpg |
 | **[url-shortener](https://github.com/KassieIII/url-shortener)** | Production-shaped URL shortener with Redis storage, click analytics, rate-limit | Node · Express · TypeScript · Redis |
