@@ -14,7 +14,7 @@ I ship typed product slices end to end: Next.js / React interfaces, FastAPI and 
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Ollama](https://img.shields.io/badge/-Ollama-000?style=flat-square&logo=ollama&logoColor=white)
 
-> **Open to remote full-stack / AI product engineering roles.** &nbsp;·&nbsp; 📫 honormorethangold@gmail.com &nbsp;·&nbsp; 🌐 [Portfolio](https://dev-portfolio-kassie-iii.vercel.app)
+> **Open to remote full-stack / AI product engineering roles.** &nbsp;·&nbsp; 📫 honormorethangold@gmail.com &nbsp;·&nbsp; 🌐 [Portfolio](https://dev-portfolio-sigma-sepia.vercel.app)
 
 ---
 
@@ -67,7 +67,7 @@ The strongest repos are built as small production slices: typed code, focused te
 
 ## 📫 Get in touch
 
-- 🌐 Portfolio — **[dev-portfolio-kassie-iii.vercel.app](https://dev-portfolio-kassie-iii.vercel.app)**
+- 🌐 Portfolio — **[dev-portfolio-sigma-sepia.vercel.app](https://dev-portfolio-sigma-sepia.vercel.app)**
 - Email — **honormorethangold@gmail.com**
 - GitHub — **[@KassieIII](https://github.com/KassieIII)**
 - Open to: full-stack / AI product roles, remote or relocation.
