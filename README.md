@@ -23,7 +23,7 @@ I ship typed APIs and SPAs that are small, observable and boring in production: 
 | Area              | Tools                                                                   |
 | ----------------- | ----------------------------------------------------------------------- |
 | **Backend**       | FastAPI, Express, Go (net/http), SQLAlchemy 2.0, asyncpg                |
-| **Frontend**      | Next.js 14, Vue 3, React 18, TypeScript, Tailwind, Pinia                |
+| **Frontend**      | Next.js 16/14, Vue 3, React 19/18, TypeScript, Tailwind, Pinia          |
 | **Data / infra**  | PostgreSQL, Redis, IndexedDB, Alembic migrations                        |
 | **DevOps**        | Docker (multi-stage, distroless), GitHub Actions, Makefile, pre-commit  |
 | **AI / RAG**      | pgvector + HNSW, sentence-transformers, Ollama, cross-encoder rerank    |
@@ -36,6 +36,7 @@ I ship typed APIs and SPAs that are small, observable and boring in production: 
 | Project | What it is | Stack |
 | ------- | ---------- | ----- |
 | **[rag-docs](https://github.com/KassieIII/rag-docs)** ⭐ | Production-shaped RAG service — pgvector HNSW retrieval, local Ollama LLM, every claim cited as `[chunk:N]`, 25-question eval harness. **recall@5 = 1.00**, citation accuracy **+15 %** with cross-encoder rerank, **p95 latency −15 %**. | FastAPI · pgvector · Ollama · bge-small |
+| **[rag-chat-ui](https://github.com/KassieIII/rag-chat-ui)** | Streaming Next.js chat UI for `rag-docs` — POST-based SSE over `fetch` + `ReadableStream`, citations-first rendering, abortable generation, tested parser. | Next.js 16 · React 19 · TypeScript · Tailwind |
 | **[go-pingmon](https://github.com/KassieIII/go-pingmon)** | Concurrent HTTP uptime monitor — worker-pool prober, JSON API, distroless Docker (~3 MB) | Go · stdlib |
 | **[TaskFlow-API](https://github.com/KassieIII/TaskFlow-API)** | Async REST API with JWT auth, Alembic migrations, Postgres | FastAPI · SQLAlchemy 2.0 · asyncpg |
 | **[url-shortener](https://github.com/KassieIII/url-shortener)** | Production-shaped URL shortener with Redis storage, click analytics, rate-limit | Node · Express · TypeScript · Redis |
@@ -43,7 +44,7 @@ I ship typed APIs and SPAs that are small, observable and boring in production: 
 | **[vue-notes](https://github.com/KassieIII/vue-notes)** | Offline-first Markdown notes — autosave, IndexedDB, sanitised preview | Vue 3 · Pinia · Vite |
 | **[GeoTracker](https://github.com/KassieIII/GeoTracker)** | Real-time vehicle tracker with WebSocket fan-out and Leaflet map | React · TypeScript · WebSocket |
 
-All seven repositories ship a green CI pipeline, a Dockerfile (where applicable), and conventional commits.
+The strongest repos are built as small production slices: typed code, focused tests, CI, Docker where it matters, and README files that explain trade-offs instead of only listing features.
 
 ---
 
