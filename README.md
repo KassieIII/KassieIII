@@ -1,8 +1,8 @@
 # Kassym Yermakhanbet
 
-**Backend / Full-stack engineer** — Python · Go · TypeScript · RAG / LLM systems
+**Full-stack / AI product engineer** — TypeScript · Python · Go · RAG / LLM systems
 
-I ship typed APIs and SPAs that are small, observable and boring in production: typed APIs, focused tests, sane CI, and Docker images that don't pull half the internet. Currently building real-time geolocation and AI tools at Seven Hills.
+I ship typed product slices end to end: Next.js / React interfaces, FastAPI and Go services, PostgreSQL-backed data flows, focused tests, sane CI, and Docker images that don't pull half the internet. Currently building real-time geolocation and AI tools at Seven Hills.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -14,7 +14,7 @@ I ship typed APIs and SPAs that are small, observable and boring in production: 
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Ollama](https://img.shields.io/badge/-Ollama-000?style=flat-square&logo=ollama&logoColor=white)
 
-> **Open to remote backend / AI engineering roles.** &nbsp;·&nbsp; 📫 honormorethangold@gmail.com &nbsp;·&nbsp; 🌐 [Portfolio](https://dev-portfolio-sigma-sepia.vercel.app)
+> **Open to remote full-stack / AI product engineering roles.** &nbsp;·&nbsp; 📫 honormorethangold@gmail.com &nbsp;·&nbsp; 🌐 [Portfolio](https://dev-portfolio-kassie-iii.vercel.app)
 
 ---
 
@@ -22,8 +22,8 @@ I ship typed APIs and SPAs that are small, observable and boring in production: 
 
 | Area              | Tools                                                                   |
 | ----------------- | ----------------------------------------------------------------------- |
-| **Backend**       | FastAPI, Express, Go (net/http), SQLAlchemy 2.0, asyncpg                |
 | **Frontend**      | Next.js 16/14, Vue 3, React 19/18, TypeScript, Tailwind, Pinia          |
+| **Backend**       | FastAPI, Express, Go (net/http), SQLAlchemy 2.0, asyncpg                |
 | **Data / infra**  | PostgreSQL, Redis, IndexedDB, Alembic migrations                        |
 | **DevOps**        | Docker (multi-stage, distroless), GitHub Actions, Makefile, pre-commit  |
 | **AI / RAG**      | pgvector + HNSW, sentence-transformers, Ollama, cross-encoder rerank    |
@@ -36,8 +36,8 @@ I ship typed APIs and SPAs that are small, observable and boring in production: 
 | Project | What it is | Stack |
 | ------- | ---------- | ----- |
 | **[rag-docs](https://github.com/KassieIII/rag-docs)** ⭐ | Production-shaped RAG service — pgvector HNSW retrieval, local Ollama LLM, every claim cited as `[chunk:N]`, 25-question eval harness. **recall@5 = 1.00**, citation accuracy **+15 %** with cross-encoder rerank, **p95 latency −15 %**. | FastAPI · pgvector · Ollama · bge-small |
-| **[rag-chat-ui](https://github.com/KassieIII/rag-chat-ui)** | Streaming Next.js chat UI for `rag-docs` — POST-based SSE over `fetch` + `ReadableStream`, citations-first rendering, abortable generation, tested parser. | Next.js 16 · React 19 · TypeScript · Tailwind |
-| **[go-pingmon](https://github.com/KassieIII/go-pingmon)** | Concurrent HTTP uptime monitor — worker-pool prober, JSON API, distroless Docker (~3 MB) | Go · stdlib |
+| **[rag-chat-ui](https://github.com/KassieIII/rag-chat-ui)** | Streaming Next.js chat UI for `rag-docs` — POST-based SSE over `fetch` + `ReadableStream`, citations-first rendering, abortable generation, tested parser. [Live demo](https://rag-chat-ui-roan.vercel.app/?demo=1). | Next.js 16 · React 19 · TypeScript · Tailwind |
+| **[go-pingmon](https://github.com/KassieIII/go-pingmon)** | Concurrent HTTP uptime monitor — worker-pool prober, JSON API, `/healthz`, Prometheus metrics, GHCR Docker publish. | Go · stdlib · Prometheus |
 | **[TaskFlow-API](https://github.com/KassieIII/TaskFlow-API)** | Async REST API with JWT auth, Alembic migrations, Postgres | FastAPI · SQLAlchemy 2.0 · asyncpg |
 | **[url-shortener](https://github.com/KassieIII/url-shortener)** | Production-shaped URL shortener with Redis storage, click analytics, rate-limit | Node · Express · TypeScript · Redis |
 | **[ip-osint-bot](https://github.com/KassieIII/ip-osint-bot)** | Telegram OSINT bot — IP/DNS/WHOIS lookup, async CIDR port-scanner | Python · python-telegram-bot · aiohttp |
@@ -67,9 +67,9 @@ The strongest repos are built as small production slices: typed code, focused te
 
 ## 📫 Get in touch
 
-- 🌐 Portfolio — **[dev-portfolio-sigma-sepia.vercel.app](https://dev-portfolio-sigma-sepia.vercel.app)**
+- 🌐 Portfolio — **[dev-portfolio-kassie-iii.vercel.app](https://dev-portfolio-kassie-iii.vercel.app)**
 - Email — **honormorethangold@gmail.com**
 - GitHub — **[@KassieIII](https://github.com/KassieIII)**
-- Open to: backend / full-stack roles, remote or relocation.
+- Open to: full-stack / AI product roles, remote or relocation.
 
 <sub>This page is a special <code>KassieIII/KassieIII</code> repo — its README renders on my profile.</sub>
